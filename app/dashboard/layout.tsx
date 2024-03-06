@@ -62,7 +62,7 @@ export async function getData({ email, id, firstName, lastName, profileImage }: 
      }
 }
 
-const DashBoardLayout = async ({ children }: { children: ReactNode }) => {
+export default async function DashBoardLayout({ children }: { children: ReactNode }) {
      const { getUser } = getKindeServerSession()
      const user = await getUser()
 
@@ -84,5 +84,3 @@ const DashBoardLayout = async ({ children }: { children: ReactNode }) => {
      )
 
 }
-
-export default DashBoardLayout;
