@@ -55,6 +55,7 @@ export default async function Dashboard() {
 
             revalidatePath("/dashboard")
       }
+      
 
       return (
             <div className="grid items-start gap-y-8">
@@ -80,7 +81,7 @@ export default async function Dashboard() {
                         }
                   </div>
                   {
-                        data?.Notes.length === 0 ? (
+                        data?.Notes.length === 0 || !data?.Notes ? (
                               <div className="flex min-h-[400px] flex-col items-center justify-center rounded-md border border-dashed p-8 text-center animate-in fade-in-30">
                                     <div className="flex h-20 w-20 items-center justify-center rounded-full bg-primary/10">
                                           <File className="w-10 h-10 text-primary" />
