@@ -1,7 +1,10 @@
 # Notes Web Application
 
-Welcome to the **Notes Web Application**! This application provides a seamless way to create, manage, and organize your notes. With a focus on user experience, we've included both light and dark modes, allowing you to customize your workspace according to your preferences. Additionally, we offer a secure and efficient payment system integrated with Stripe, enabling access to premium features
+Welcome to the **Notes Web Application**! This application provides a seamless way to create, manage, and organize your notes. With a focus on user experience, we've included both light and dark modes, allowing you to customize your workspace according to your preferences. Additionally, we offer a secure and efficient payment system integrated with Stripe, enabling access to premium features.
 
+You can visit the website [here](https://marshall-sass.vercel.app/)
+
+![Website image](https://github.com/danny244/Marshall-sass/blob/main/public/Screenshot%202024-08-12%20175948.png?raw=true)
 
 ## Features
 
